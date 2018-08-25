@@ -12,3 +12,19 @@ const greetingElement  = document.getElementById('greeting');
 const firstName = 'Ripal';
 const lastName = 'Patel';
 greetingElement.innerHTML = `Hello my name is ${firstName} ${lastName}`;
+
+
+// Object Shorthand notation
+let name = 'callan';
+let age = '1000';
+
+// let person = {
+//     name: name,
+//     age: age
+// };
+
+let person = {
+    name,
+    age
+};
+console.log('person:' , person.name);
