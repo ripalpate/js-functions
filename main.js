@@ -28,3 +28,5 @@ let person = {
     age
 };
 console.log('person:' , person.name);
+
+
